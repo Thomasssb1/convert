@@ -128,6 +128,10 @@ const Formats = {
   TEXT_UTF16BE: new FormatDefinition("Plain Text (UTF-16 BE)", "UTF-16 BE", "txt", "text/plain; charset=UTF-16BE", Category.TEXT),
   TEXT_UTF32LE: new FormatDefinition("Plain Text (UTF-32 LE)", "UTF-32 LE", "txt", "text/plain; charset=UTF-32LE", Category.TEXT),
   TEXT_UTF32BE: new FormatDefinition("Plain Text (UTF-32 BE)", "UTF-32 BE", "txt", "text/plain; charset=UTF-32BE", Category.TEXT),
+  // text - subtitles
+  SRT: new FormatDefinition("SubRip Subtitle", "srt", "srt", "application/x-subrip", Category.TEXT),
+  VTT: new FormatDefinition("Web Video Text Tracks (WebVTT)", "vtt", "vtt", "text/vtt", Category.TEXT),
+  ASS: new FormatDefinition("Advanced SubStation Alpha", "ass", "ass", "text/x-ass", Category.TEXT),
 
   // data
   JSON: new FormatDefinition("JavaScript Object Notation", "json", "json", "application/json", Category.DATA),
